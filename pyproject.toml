@@ -1,0 +1,24 @@
+[project]
+name = "ucl-research-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.4",
+    "numpy>=1.26.4",
+    "pandas>=2.3.0",
+    "particles>=0.4",
+    "pycoingecko>=3.2.0",
+    "scipy>=1.13.1",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+    "yfinance>=0.2.63",
+]
+
+
+
+
+
+
