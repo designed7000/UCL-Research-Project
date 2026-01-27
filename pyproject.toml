@@ -1,7 +1,7 @@
 [project]
 name = "ucl-research-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Bayesian forecasting for asset pricing using Sequential Monte Carlo and Stochastic Volatility models"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
