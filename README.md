@@ -1,6 +1,6 @@
-# Online Asset Pricing, Risk Management and Portfolio Optimisation
+# Scalable Bayesian Model Selection for Time-Series Volatility Using Sequential Monte Carlo
 
-A Bayesian forecasting approach via Sequential Monte Carlo methods.
+UCL MSc Dissertation Project
 
 ---
 
@@ -119,18 +119,24 @@ Data is fetched automatically via the `yfinance` package. Default date ranges ca
 
 ## References
 
-- Doucet, A., de Freitas, N., and Gordon, N. (2001). Sequential Monte Carlo Methods in Practice
-- Kim, S., Shephard, N., and Chib, S. (1998). Stochastic Volatility: Likelihood Inference and Comparison with ARCH Models
-- Hoffman, M. D. and Gelman, A. (2014). The No-U-Turn Sampler
+- Doucet, A., de Freitas, N., and Gordon, N. (2001). *Sequential Monte Carlo Methods in Practice*. Springer.
+- Kim, S., Shephard, N., and Chib, S. (1998). Stochastic Volatility: Likelihood Inference and Comparison with ARCH Models. *Review of Economic Studies*, 65(3), 361-393.
+- Hoffman, M. D. and Gelman, A. (2014). The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo. *Journal of Machine Learning Research*, 15, 1593-1623.
+- Chopin, N., Papaspiliopoulos, O., et al. (2020). *An Introduction to Sequential Monte Carlo*. Springer.
+- Harvey, A., Ruiz, E., and Shephard, N. (1994). Multivariate Stochastic Variance Models. *Review of Economic Studies*, 61(2), 247-264.
+- Phan, D., Pradhan, N., and Jankowiak, M. (2019). Composable Effects for Flexible and Accelerated Probabilistic Programming in NumPyro. *arXiv preprint arXiv:1912.11554*.
 
 ---
 
 ## Author
 
-UCL MSc Research Project
+Alexandros Chortis
+
+Supervised by Professor Alexandros Beskos and Christopher Stanton  
+UCL Department of Statistical Science
 
 ---
 
 ## License
 
-This project was developed for academic research purposes.
+This project was developed for academic research purposes at University College London.
