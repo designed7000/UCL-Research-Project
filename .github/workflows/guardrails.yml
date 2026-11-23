@@ -1,0 +1,15 @@
+name: guardrails
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+jobs:
+  ci:
+    uses: designed7000/guardrails/.github/workflows/ci.yml@v1
+    permissions:
+      contents: read
+      security-events: write
+    with:
+      python: false
